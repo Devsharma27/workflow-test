@@ -12,6 +12,6 @@ jobs:
         with:
           python-version: '3.10' 
         # Build App and Run Application Test
-      - name: Run unit Test
+      # - name: Run unit Test
         # run: node index.js
-        run: python dns.py
+        # run: python dns.py
