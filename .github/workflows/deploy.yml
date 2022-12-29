@@ -2,7 +2,7 @@ on:
   push:
     paths:
       - 'dev/**'
-      - 'srinath/**'
+      # - 'srinath/**'
 jobs:
   build-and-publish:
     runs-on: ubuntu-latest

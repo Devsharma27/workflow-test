@@ -1,1 +1,1 @@
-print("hello ji sda")
+print("hello ji")
