@@ -1,8 +1,11 @@
 on:
   push:
-    paths:
-      - 'dev/**'
-      # - 'srinath/**'
+  - pull request:
+      # paths:
+        branches:
+          - main
+        # - 'dev/**'
+        # - 'srinath/**'
 jobs:
   build-and-publish:
     runs-on: ubuntu-latest
